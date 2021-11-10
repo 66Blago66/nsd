@@ -1,0 +1,163 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 57px;
+	color: #fff;
+	padding-bottom: 322px;
+}
+
+header a {
+	color: #fff;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;x
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu {
+	display: flex;
+    margin-left: auto;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li {
+	margin-right: 30px;
+}
+
+.tel {
+	font-size: 17px;
+	margin-left: 50px;
+	letter-spacing: 0.1em;
+    display: flex;
+}
+
+.btn {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .btn {
+        max-width: 200px;
+        margin-left: auto
+    }
+    .offer {
+        max-width: 300px;
+    }
+    .nav {
+        max-width: 300px;
+    }
+    .Dol {
+        max-width: 400px ;
+        max-height: 400px;
+        margin-left: 10px;
+    }
+    
+    .Howdy {
+        max-width: 400px;
+        max-height: 400px;
+        margin-left: 10px;
+    }
+
+    .container p {
+        margin-left: 5px;
+
+    }
+    .container {
+        display: inline-block;
+  vertical-align: middle;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        display: flex;
+        padding: 20px;
+    }
+    .HH {
+        display: inline-block;
+        position: rigth;
+    }
+    .Dol {
+        display: inline-block;
+        position: left;
+        
+    }
+}
+
+.btn:hover {
+	background: #fff;
+    color: #000;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+}
+
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+
+.container {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+}
+
+
+.Dol {
+    width: 500px ;
+    height: 500px;
+}
+
+.Howdy {
+    width: 500px;
+    height: 500px;
+}
+
+.container h3, p {
+    color: white;
+}
